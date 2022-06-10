@@ -1,8 +1,9 @@
-# React Portfolio Project
+# React-Portfolio-Project
 <img src="src/assets/portfolio.PNG" alt="homepage screenshot">
+<img src="./src/assets/portfolio.PNG" alt="homepage screenshot">
+<img src="../src/assets/portfolio.PNG" alt="homepage screenshot">
 
-
-# About Me
+## About Me
 
 Hi I'm Nithi, I am looking for a career change, So decided to do the front end web development course - Academy Xi - to learn.
 
@@ -17,9 +18,9 @@ Interested in the entire frontend spectrum and looking for ambitious project wit
 <p>React</p>
 
 ## Pre-requisite for ReactJS
-NPM
-React and React DOM
-Webpack
+<p>NPM</p>
+<p>React and React DOM</p>
+<p>Webpack</p>
 
 
 
@@ -27,5 +28,5 @@ Webpack
 npm start
 
 
-To Visit the Project
+## To Visit the Project
  http://localhost:3000
