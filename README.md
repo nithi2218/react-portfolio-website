@@ -2,6 +2,9 @@
 <img src="/src/assets/portfolio.PNG" alt="homepage screenshot">
 <img src="./src/assets/portfolio.PNG" alt="homepage screenshot">
 <img src="../src/assets/portfolio.PNG" alt="homepage screenshot">
+<img src="../assets/portfolio.PNG" alt="homepage screenshot">
+<img src="/assets/portfolio.PNG" alt="homepage screenshot">
+<img src="src/assets/portfolio.PNG" alt="homepage screenshot">
 
 
 <img src="/path/to/img.jpg" alt="Alt text" title="Optional title">
