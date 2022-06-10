@@ -1,11 +1,11 @@
 # React-Portfolio-Project
-<img src="/src/assets/portfolio.PNG" alt="homepage screenshot">
+<img src="public/portfolio.PNG" alt="homepage screenshot">
 <img src="./src/assets/portfolio.PNG" alt="homepage screenshot">
 <img src="../src/assets/portfolio.PNG" alt="homepage screenshot">
 <img src="../assets/portfolio.PNG" alt="homepage screenshot">
 <img src="/assets/portfolio.PNG" alt="homepage screenshot">
 <img src="src/assets/portfolio.PNG" alt="homepage screenshot">
-
+![Alt text](/posts/path/to/img.jpg "Optional title")
 
 <img src="/path/to/img.jpg" alt="Alt text" title="Optional title">
 
