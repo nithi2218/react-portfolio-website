@@ -20,6 +20,10 @@ const SocialFollow = () => {
         </a>
       </li>
 
+      <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-blue-600'>
+        <a className='flex justify-between items-center w-full text-gray-300' href='https://www.facebook.com/nithyadevi.sakthivel'><FaFacebook size={30} />Facebook
+        </a>
+      </li>
 
       <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#a6a7a4]'>
         <a className='flex justify-between items-center w-full text-gray-300' href='mailto:nithi2218@gmail.com'><HiOutlineMail size={30} />Email

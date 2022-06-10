@@ -1,13 +1,6 @@
 # React-Portfolio-Project
-<img src="public/portfolio.png" alt="homepage screenshot">
-<img src="src/assets/portfolio.png" alt="homepage screenshot">
-<img src="../src/assets/portfolio.PNG" alt="homepage screenshot">
-<img src="../assets/portfolio.PNG" alt="homepage screenshot">
-<img src="/assets/portfolio.PNG" alt="homepage screenshot">
-<img src="/src/assets/portfolio.PNG" alt="homepage screenshot">
-![Alt text](/posts/path/to/img.jpg "Optional title")
 
-<img src="/path/to/img.jpg" alt="Alt text" title="Optional title">
+<img src="src/assets/portfolio.png" alt="homepage screenshot">
 
 ## About Me
 
@@ -23,16 +16,13 @@ Interested in the entire frontend spectrum and looking for ambitious project wit
 <p>JavaScript</p>
 <p>React</p>
 
-## Pre-requisite for ReactJS
+## Pre-requisite
 <p>NPM</p>
-<p>React and React DOM</p>
+<p>React, React DOM, React Router DOM and React Icons</p>
+<p>Parcel</p>
 <p>Webpack</p>
-
+<p>Tailwind</p>
 
 
 ## To Start Server
 npm start
-
-
-## To Visit the Project
- http://localhost:3000
