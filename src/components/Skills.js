@@ -6,15 +6,11 @@ import GitHub from '../assets/github.png';
 import JavaScript from '../assets/javascript.png';
 import React1 from '../assets/react.png';
 import Tailwind from '../assets/tailwind.PNG';
-import Navbar from '../components/Navbar';
-import Copyright from '../components/Copyright';
-import SocialFollow from '../components/SocialFollow';
 
 
 const Skills = () => {
   return (
     <>
-<Navbar />
 
 
 
@@ -56,8 +52,7 @@ const Skills = () => {
 
 
         </div>    
-        <SocialFollow />
-        <Copyright />
+        
       </div>
        
     </div>

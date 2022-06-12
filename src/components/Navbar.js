@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from "react-router-dom";
+import SocialFollow from './SocialFollow';
 
 
 const Navbar = () => {
@@ -14,17 +16,17 @@ const handleClick = () => setTabs(!tabs)
 
     
         <ul className='hidden md:flex'>
-            <li>
-              <a className='hover:underline' href='/'>Home</a>
-              </li>
-              <li>
-            <a className='hover:underline' href='/about'>About</a>
+        <li className="hover:underline">
+              <Link to="/">Home</Link>
             </li>
-            <li>
-            <a className='hover:underline' href='/skills'>Skills</a>
+            <li className="hover:underline">
+              <Link to="/about">About</Link>
             </li>
-            <li>
-            <a className='hover:underline' href='/contact'>Contact</a>
+            <li className="hover:underline">
+              <Link to="/skills">Skills</Link>
+            </li>
+            <li className="hover:underline">
+              <Link to="/contact">Contact</Link>
             </li>
             
         </ul>
@@ -38,25 +40,30 @@ const handleClick = () => setTabs(!tabs)
           <p className='text-3xl'>Nithyadevi Sakthivel</p>
          </li>
 
-            <li className='py-5 text-2xl'>
-              <a className='hover:underline' href='/'>Home</a>
-            </li>
+         <li className="py-6 text-2xl hover:underline">
+            <Link onClick={handleClick} to="/">
+              Home
+            </Link>
+          </li>
+          <li className="py-6 text-2xl hover:underline">
+            <Link onClick={handleClick} to="/about">
+              About
+            </Link>
+          </li>
       
-            <li className='py-5 text-2xl'>
-            <a className='hover:underline' href='/about'>About</a>
-            </li>
-      
-      
-            <li className='py-5 text-2xl'>
-            <a className='hover:underline' href='/skills'>Skills</a>
-            </li>
-            
-            <li className='py-5 text-2xl'>
-            <a className='hover:underline' href='/contact'>Contact</a>
-            </li>
+          <li className="py-6 text-2xl hover:underline">
+            <Link onClick={handleClick} to="/skills">
+              Skills
+            </Link>
+          </li>
+          <li className="py-6 text-2xl hover:underline">
+            <Link onClick={handleClick} to="/contact">
+              Contact
+            </Link>
+          </li>
 
         </ul>
-    
+    <SocialFollow />
     </div>
     
     
@@ -67,4 +74,3 @@ const handleClick = () => setTabs(!tabs)
 
 
 export default Navbar
-      

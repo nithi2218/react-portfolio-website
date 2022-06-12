@@ -1,14 +1,13 @@
 import React from 'react'
-import Copyright from '../components/Copyright'
-import Navbar from '../components/Navbar'
-import SocialFollow from '../components/SocialFollow'
+
+
 
 const Contact = () => {
   return (
     <>
-    <Navbar />
+
     <div className='w-full h-screen bg-[#0d323e] flex justify-center items-center md:pt-0'>
-      <SocialFollow />
+      
       
         <form method='POST' action="https://getform.io/f/88cfb79e-2f52-4f61-809a-579ba759fca8" className='flex flex-col h-200 max-w-[600px] w-full'>
         <div className='pt-6'>
@@ -21,7 +20,7 @@ const Contact = () => {
         </form>
           </div>
           
-          <Copyright /></>
+         </>
   )
 }
 
